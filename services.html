@@ -15,28 +15,33 @@
                     <span class="logo-text">Portfolio</span>
                 </a>
                 <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html" class="active">Services</a></li>
-                    <li><a href="credentials.html">Credentials</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav.services">Services</a></li>
+                    <li><a href="credentials.html" data-i18n="nav.credentials">Credentials</a></li>
+                    <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
                 </ul>
+                <div class="language-switcher">
+                    <span class="lang-option active" data-lang="en">EN</span>
+                    <span class="lang-option" data-lang="es">ES</span>
+                    <span class="lang-option" data-lang="tl">TL</span>
+                </div>
             </div>
         </nav>
     </header>
     
     <main>
         <section class="page-header">
-            <h1>Services</h1>
-            <p class="subtitle">What I can do for you</p>
+            <h1 data-i18n="services.title">Services</h1>
+            <p class="subtitle" data-i18n="services.subtitle">What I can do for you</p>
         </section>
 
         <section class="services-grid-section">
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🌐</div>
-                    <h3>Web Development</h3>
-                    <p>Custom website development from scratch. Responsive, modern, and optimized for performance.</p>
+                    <h3 data-i18n="services.webDev">Web Development</h3>
+                    <p data-i18n="services.webDevDesc">Custom website development from scratch. Responsive, modern, and optimized for performance.</p>
                     <ul class="service-features">
                         <li>Responsive Design</li>
                         <li>Performance Optimization</li>
@@ -46,8 +51,8 @@
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🎨</div>
-                    <h3>UI/UX Design</h3>
-                    <p>Beautiful and intuitive user interfaces that provide exceptional user experiences.</p>
+                    <h3 data-i18n="services.uiux">UI/UX Design</h3>
+                    <p data-i18n="services.uiuxDesc">Beautiful and intuitive user interfaces that provide exceptional user experiences.</p>
                     <ul class="service-features">
                         <li>User Research</li>
                         <li>Wireframing</li>
@@ -57,8 +62,8 @@
                 </div>
                 <div class="service-card">
                     <div class="service-icon">📱</div>
-                    <h3>Mobile Development</h3>
-                    <p>Mobile-first applications that work seamlessly across all devices and screen sizes.</p>
+                    <h3 data-i18n="services.mobile">Mobile Development</h3>
+                    <p data-i18n="services.mobileDesc">Mobile-first applications that work seamlessly across all devices and screen sizes.</p>
                     <ul class="service-features">
                         <li>Responsive Layouts</li>
                         <li>Touch Optimization</li>
@@ -68,8 +73,8 @@
                 </div>
                 <div class="service-card">
                     <div class="service-icon">⚙️</div>
-                    <h3>Backend Development</h3>
-                    <p>Robust server-side solutions with secure APIs and efficient database management.</p>
+                    <h3 data-i18n="services.backend">Backend Development</h3>
+                    <p data-i18n="services.backendDesc">Robust server-side solutions with secure APIs and efficient database management.</p>
                     <ul class="service-features">
                         <li>RESTful APIs</li>
                         <li>Database Design</li>
@@ -79,8 +84,8 @@
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🔧</div>
-                    <h3>Maintenance & Support</h3>
-                    <p>Ongoing support and maintenance to keep your applications running smoothly.</p>
+                    <h3 data-i18n="services.maintenance">Maintenance & Support</h3>
+                    <p data-i18n="services.maintenanceDesc">Ongoing support and maintenance to keep your applications running smoothly.</p>
                     <ul class="service-features">
                         <li>Bug Fixes</li>
                         <li>Updates & Upgrades</li>
@@ -90,8 +95,8 @@
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🚀</div>
-                    <h3>Consulting</h3>
-                    <p>Technical consulting to help you make informed decisions about your projects.</p>
+                    <h3 data-i18n="services.consulting">Consulting</h3>
+                    <p data-i18n="services.consultingDesc">Technical consulting to help you make informed decisions about your projects.</p>
                     <ul class="service-features">
                         <li>Technical Advice</li>
                         <li>Architecture Planning</li>
@@ -103,36 +108,37 @@
         </section>
 
         <section class="process-section">
-            <h2>My Process</h2>
+            <h2 data-i18n="services.processTitle">My Process</h2>
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">1</div>
-                    <h3>Discovery</h3>
-                    <p>Understanding your needs, goals, and target audience to create the perfect solution.</p>
+                    <h3 data-i18n="services.discovery">Discovery</h3>
+                    <p data-i18n="services.discoveryDesc">Understanding your needs, goals, and target audience to create the perfect solution.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">2</div>
-                    <h3>Planning</h3>
-                    <p>Creating a detailed plan and timeline to ensure smooth project execution.</p>
+                    <h3 data-i18n="services.planning">Planning</h3>
+                    <p data-i18n="services.planningDesc">Creating a detailed plan and timeline to ensure smooth project execution.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">3</div>
-                    <h3>Development</h3>
-                    <p>Building your solution with clean code, best practices, and attention to detail.</p>
+                    <h3 data-i18n="services.development">Development</h3>
+                    <p data-i18n="services.developmentDesc">Building your solution with clean code, best practices, and attention to detail.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">4</div>
-                    <h3>Testing</h3>
-                    <p>Thorough testing to ensure everything works perfectly across all platforms.</p>
+                    <h3 data-i18n="services.testing">Testing</h3>
+                    <p data-i18n="services.testingDesc">Thorough testing to ensure everything works perfectly across all platforms.</p>
                 </div>
                 <div class="process-step">
                     <div class="step-number">5</div>
-                    <h3>Launch</h3>
-                    <p>Deploying your project and providing ongoing support for success.</p>
+                    <h3 data-i18n="services.launch">Launch</h3>
+                    <p data-i18n="services.launchDesc">Deploying your project and providing ongoing support for success.</p>
                 </div>
             </div>
         </section>
     </main>
+    <script src="translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
