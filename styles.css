@@ -37,7 +37,6 @@ body::before {
     100% { opacity: 1; }
 }
 
-/* Floating particles effect */
 body::after {
     content: '';
     position: fixed;
@@ -62,7 +61,6 @@ body::after {
     100% { transform: translateY(-200px); }
 }
 
-/* Header & Navigation */
 header {
     position: sticky;
     top: 0;
@@ -168,7 +166,6 @@ nav {
     border: 1px solid rgba(168, 85, 247, 0.3);
 }
 
-/* Main Content */
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -203,7 +200,6 @@ section:nth-child(4) { animation-delay: 0.4s; }
     }
 }
 
-/* Hero Section */
 .hero {
     text-align: center;
     background: linear-gradient(135deg, rgba(168, 85, 247, 0.08) 0%, rgba(59, 130, 246, 0.08) 100%);
@@ -322,7 +318,6 @@ section:nth-child(4) { animation-delay: 0.4s; }
     left: 100%;
 }
 
-/* About Preview */
 .about-preview h2 {
     color: #fff;
     margin-bottom: 1.5rem;
@@ -357,7 +352,6 @@ section:nth-child(4) { animation-delay: 0.4s; }
     transform: translateX(5px);
 }
 
-/* Skills Section */
 .skills h2 {
     color: #fff;
     margin-bottom: 2.5rem;
@@ -431,7 +425,6 @@ section:nth-child(4) { animation-delay: 0.4s; }
     z-index: 1;
 }
 
-/* Projects Preview */
 .projects-preview h2 {
     color: #fff;
     margin-bottom: 2.5rem;
@@ -516,7 +509,6 @@ p {
     line-height: 1.8;
 }
 
-/* Page Header for About/Contact */
 .page-header {
     text-align: center;
     padding: 4rem 3rem;
@@ -537,7 +529,6 @@ p {
     font-size: 1.1rem;
 }
 
-/* About Page Styles */
 .bio-section {
     padding: 3rem;
 }
@@ -586,7 +577,6 @@ p {
     box-shadow: 0 0 40px rgba(168, 85, 247, 0.3);
 }
 
-/* Experience Timeline */
 .experience-section h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -647,7 +637,6 @@ p {
     line-height: 1.7;
 }
 
-/* Skills Detail */
 .skills-detail h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -692,7 +681,6 @@ p {
     box-shadow: 0 4px 15px rgba(168, 85, 247, 0.2);
 }
 
-/* Values Section */
 .values-section h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -739,7 +727,6 @@ p {
     line-height: 1.6;
 }
 
-/* Contact Page Styles */
 .contact-info {
     padding: 3rem;
 }
@@ -800,7 +787,6 @@ p {
     transform: translateY(-2px);
 }
 
-/* Contact Form */
 .contact-form-section h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -883,7 +869,6 @@ p {
     box-shadow: 0 8px 30px rgba(168, 85, 247, 0.5);
 }
 
-/* Social Links */
 .social-section h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -933,7 +918,6 @@ p {
     color: #c084fc;
 }
 
-/* Availability Section */
 .availability-section {
     background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
     border: 1px solid rgba(168, 85, 247, 0.2);
@@ -985,7 +969,6 @@ p {
     font-size: 1.05rem;
 }
 
-/* Footer styling for all pages */
 footer {
     text-align: center;
     padding: 2rem;
@@ -995,7 +978,6 @@ footer {
     margin-top: 2rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
@@ -1070,7 +1052,6 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    /* About Page Responsive */
     .bio-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -1107,7 +1088,6 @@ footer {
         gap: 1rem;
     }
 
-    /* Contact Page Responsive */
     .contact-grid {
         grid-template-columns: 1fr;
     }
